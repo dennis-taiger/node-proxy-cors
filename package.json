@@ -1,0 +1,24 @@
+{
+  "name": "node-proxy-cors",
+  "version": "1.0.0",
+  "description": "A NodeJS proxy to make CORS requests.",
+  "main": "node-proxy-cors.js",
+  "scripts": {
+    "start": "nodemon node-proxy-cors.js"
+  },
+  "keywords": [
+    "node",
+    "proxy",
+    "cors"
+  ],
+  "author": "Dennis Yeung",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

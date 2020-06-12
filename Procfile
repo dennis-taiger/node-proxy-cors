@@ -1,0 +1,1 @@
+web: node node-proxy-cors.js
